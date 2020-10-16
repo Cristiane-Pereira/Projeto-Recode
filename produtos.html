@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Virtual</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./funcoes.js"></script>
+</head>
+<body>
+    <!--Inicio do Menu-->
+    <table class="menu">
+     <tr>
+         <td><a href="index.html"><img class="logo" src="./img/39ba8b5dcd939ad07c573c7b939285d2.png" alt="Icone da loja virtual"></a></td>
+         <td><a href="produtos.html">Produtos da Loja</a></td>
+         <td><a href="acessorios.html">Acessórios</a></td>
+         <td><a href="contato.html">Contatos</a></td>
+     </tr>
+  </table>
+  <!--Fim de menu-->
+
+         <!--Começo da primeira linha de produtos-->
+
+
+         <table class="produtosloja"> 
+            <tr>
+                    <td id="lista"rowspan="5" valign="top">
+                        <h3 class="lista">Categorias</h3>
+                        <ul>
+                            <li onclick="exibir_todos()">Todos (12)</li>
+                            <li onclick="exibir_categoria('Vestidos')">Vestidos (5)</li>
+                            <li onclick="exibir_categoria ('Conjunto')">Conjuntos (3)</li>
+                            <li onclick="exibir_categoria ('Saias')">Saias (1)</li>
+                            <li onclick="exibir_categoria ('Blusinhas')" >Blusinhas (1)</li>
+                            <li onclick="exibir_categoria ('Macacao')" >Macacão (1)</li>
+                            <li onclick="exibir_categoria ('Blusa')" >Blusa (1)</li>
+                        </ul>
+                    </td>
+     <section id="loja">
+      <tr>   
+        <td class="item"valign="botton" id="Vestidos" >
+            <img class="imagem" src="./img/ddc1c2_88f6ce44d8364ad7a01b1a5ad2c951ce_mv2.jpg"  style="display: inline-flexbox;"  onclick="destaque(this)">
+            <br>
+            <p>Vestido manga longa Princesa MOB</p>
+            <p><strike>R$ 220,00</strike></p><br>
+            <p class="preco ">R$ 110,00</p><br><br>
+            <hr>
+      </td>
+        <td class="item"valign="botton" id="Vestidos">
+             <img class="imagem" src="./img/ddc1c2_f3411434679d43fd9a3a5f24609e6ac5_mv2.jpg" style="display: inline-flexbox;"   onclick="destaque(this)">
+             <br>
+             <p>Vestido moda blogueiras MOB</p>
+             <p><strike>R$ 100,00</strike></p><br>
+             <p class="preco " >R$73,90</p><br><br>
+             <hr>
+         </td> 
+
+        <td class="item" valign="botton" id="Vestidos"  >
+            <img class="imagem" src="./img/ddc1c2_47c6859152e94923890c5c408c53b9cd_mv2.jpg" style="display: inline-flexbox;"  onclick="destaque(this)" >
+            <br>
+            <p>Vestido longo Plus Size MOB </p>
+            <p><strike>R$ 167,00,</strike></p><br>
+            <p class="preco " >R$ 115,90</p><br><br>
+            <hr>
+      </td>
+      <td class="item" valign="botton" id="Vestidos"  >
+           <img class="imagem" src="./img/ddc1c2_c9bb6a6fe46d42c4b0b7888ed37a7ba7_mv2.jpg" style="display: inline-flexbox;"  onclick="destaque(this)" >
+           <br>
+           <p>Vestido floral MOB</p>
+           <p><strike>R$ 209,80</strike></p><br>
+           <p class="preco " >R$ 167,00</p><br><br>
+           <hr>
+     </td>
+ </tr>
+           <!--fim da primeira linha dos produtos-->
+           <!--Começo da 2 linha de Produtos-->
+        <tr>
+           <td class="item"  valign="botton" id="Vestidos" >
+            <img class="imagem" src="./img/ddc1c2_eb9385a3177c4637a58da610640bd120_mv2.jpg" style="display: inline-flexbox;"  onclick="destaque(this)" >
+            <br>
+            <p>Vestido Midi MOB</p>
+            <p><strike>R$ 159,00</strike></p><br>
+            <p class="preco ">R$ 127,00</p><br><br>
+            <hr>
+       </td> 
+       
+        <td class="item" valign="botton" id="Conjunto">
+             <img class="imagem" src="./img/ddc1c2_b59f665277044cf9958a8d34379a6ea2_mv2.jpg" style="display: inline-flexbox;"  onclick="destaque(this)" >
+             <br>
+             <p>Conjunto Neopreme Blusa e Calça</p>
+             <p><strike>R$ 210,00 </strike></p><br>
+             <p class="preco ">R$ 150,00</p><br><br>
+             <hr>
+        </td> 
+
+       <td class="item"valign="botton" id="Conjunto"  >
+            <img class="imagem" src="./img/ddc1c2_266c5068bc694035bdf86e1cc265597e_mv2.jpg"  style="display: inline-flexbox;"  onclick="destaque(this)" >
+            <br>
+            <p>Conjunto moda Blogueira Tricolor</p>
+            <p><strike>R$ 179,90 </strike></p><br>
+            <p class="preco ">R$ 130,50</p><br><br>
+            <hr>
+       </td>
+       <td class="item" valign="botton" id="Conjunto" >
+        <img class="imagem" src="./img/ddc1c2_8236421c67a44198869de487c3f6fb44_mv2.jpg" style="display: inline-flexbox;"  onclick="destaque(this)" >
+        <br>
+        <p>Conjunto Moleton Blusa e Calça </p>
+        <p><strike>R$ 149,90</strike></p><br>
+        <p class="preco">R$ 125,00</p><br><br>
+        <hr>
+     </td>
+ </tr>
+
+      <!--Fim da 2 linha de produos-->
+      <!--Começo da 3 linha de Produtos-->
+  <tr>
+    <td class="item" valign="botton" id="Blusa" >
+            <img class="imagem" src="./img/ddc1c2_91a069e5e25d4a99aa1d292120afc0b4_mv2.jpg"  style="display: inline-flexbox;" onclick="destaque(this)" >
+            <br>
+            <p>Blusa de Lã Tricolor</p>
+            <p><strike>R$ 149,90</strike></p><br>
+            <p class="preco " >R$ 109,00</p><br><br>
+            <hr>
+       </td>
+  
+       <td class="item" valign="botton" id="Saias">
+        <img class="imagem" src="./img/ddc1c2_5db26878bcd749b492d233655195cfdf_mv2.jpg"  style="display: inline-flexbox;" onclick="destaque(this)" >
+        <br>
+        <p>Saia moda evangélica MOB</p>
+        <p><strike>R$ 120,00</strike></p><br>
+        <p class="preco ">R$ 92,90</p><br><br>
+        <hr>
+     </td>
+
+     <td class="item" valign="botton" id="Macacao"  >
+       <img class="imagem" src="./img/ddc1c2_c7bc15629c0d46cabb43def061c01f65_mv2.jpg" style="display: inline-flexbox;" onclick="destaque(this)"  >
+       <p>Macacão feminino social MOB</p>
+       <p><strike>R$ 220,00</strike><br><br>
+       <p class="preco ">R$ 150,00</p><br><br>
+      <hr> 
+    </td>
+ 
+    <td class="item"  valign="botton" id="Blusinhas" >
+            <img class="imagem" src="./img/ddc1c2_cff73157c3a047beb3ca6fea9cb60cc4_mv2.jpg" style="display: inline-flexbox;"  onclick="destaque(this)" >
+            <br>
+            <p>Camisa Feminina Mullet Famosas</p>
+            <p><strike>R$ 92,90</strike></p><br>
+            <p class="preco " >R$ 61,90</p><br><br>
+           <hr>
+    </td>
+ </tr>
+       
+   <!--fim da 3 linha de produtos-->
+</tr>
+</table>
+</section>
+           <!--Imagem do cupon-->
+            <img  width="100%" src="./img/download.gif">
+            <br><br><br> <br><br><br> <br>
+
+             <div class="tabela2">
+                <p3><b>GANHE R$20,00</b> DE <b>DESCONTO</b> NA PRIMEIRA COMPRA!</p3><br>
+                <p4>Válido para compras acima de R$200,00.</p4><br><br><br>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" name="mail" placeholder="Dígite seu e-mail para ganhar...">
+                <button class="btn" onmousemove="btn1()", onclick="btn2()", onmouseout="btn3()" >Enviar</button>
+
+            </div>
+            
+      <!--Formas de pagamento-->
+      <br><br><br><br>
+  <section class="pagamento">
+     <h4>Formas de Pagamento</h4>
+     <img id="pagamento" src="./img/icon-pagseguro-horiz.png" alt="Formas de Pagamentos">
+     <br><br><br>
+  </section>
+
+  <footer id="rodape">      
+    <p>Copyright &copy; 2020- by Cristiane Pereira -Recode </p>
+       
+  </footer>
+</body>
+
+</html>

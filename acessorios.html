@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Virtual</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./funcoes.js"></script>
+</head>
+<body>
+     <!--Inicio do Menu-->
+    <table class="menu">
+        <tr>
+            <td><a href="index.html"><img class="logo" src="./img/39ba8b5dcd939ad07c573c7b939285d2.png" alt="Icone da loja virtual"></a></td>
+            <td><a href="produtos.html">Produtos da Loja</a></td>
+            <td><a href="acessorios.html">Acessórios</a></td>
+            <td><a href="contato.html">Contatos</a></td>
+        </tr>
+     </table>
+     <!--Fim de menu-->
+      <!--Começo da primeira linha de produtos-->
+
+    <table class="produtosloja"> 
+        <tr>
+                <td id="lista" rowspan="5" valign="top">
+                    <h3 class="lista">Categorias</h3>
+                    <ul class="roupas">
+                        <li onclick="exibir_todos()">Todos (12)</li>
+                        <li onclick="exibir_categoria ('Acessórios')">Acessórios (4)</li>
+                        <li onclick="exibir_categoria ('Cosméticos')">Cosméticos (4)</li>
+                        <li onclick="exibir_categoria ('Bolsas')">Bolsas (4)</li>
+                    </ul>
+                </td>
+          
+  <section id="loja">
+  <tr>
+    <td class="item" valign="botton" id="Bolsas" >
+        <img class="imagem" src="./img/CAJ.SCR.FR PURPLE FASHION 16.png" style="display: inline-flexbox;"  onclick="destaque(this)">
+        <br>
+        <p>Bolsa feminina couro ecológico roxa</p>
+        <p><strike>R$ 170,00</strike></p><br>
+        <p class="preco " >R$ 110,00</p><br><br>
+        <hr>
+  </td> 
+  <td class="item"valign="botton" id="Bolsas">
+    <img class="imagem" src="./img/Bolsa-De-Couro-Sem-Costura-1.png" style="display: inline-flexbox;" onclick="destaque(this)" >
+    <br>
+    <p>Bolsa Bella Modas</p>
+    <p><strike>R$ 79,90</strike><p>
+    <p class="preco " >R$ 60,00</p><br><br>
+     <hr>
+</td>
+  
+  <td class="item" valign="botton" id="Bolsas">
+        <img class="imagem" src="./img/2017-nova-moda-mulheres-bolsa-de-ombro-bolsa-saco-do-mensageiro-do-vintage-bolsas-de-couro.jpg" style="display:inline-flexbox;"  onclick="destaque(this)" >
+        <br>
+        <p>Bolsa importada La Petite fleur </p>
+        <p><strike>R$ 167,00</strike></p><br>
+        <p class="preco">R$ 125,90</p><br><br>
+        <hr>
+ </td>
+  <td class="item" valign="botton" id="Bolsas">
+        <img class="imagem" src="./img/bolsa_couro_legitimo_com_alca_trancada_caramelo_7433_1_20190701143249.jpg"  style="display: inline-flexbox;" onclick="destaque(this)"  >
+        <p>Bolsa Social</p>
+        <p><strike>R$ 85,00</strike></p><br>
+        <p class="preco ">R$ 52,90</p><br><br>
+        <hr>
+ 
+ </tr>
+       <!--fim da primeira linha dos produtos-->
+       <!--Começo da 2 linha de Produtos-->
+      
+<tr>
+</td>
+     <td class="item"valign="botton" id="Acessórios">
+            <img class="imagem" src="./img/CAJ.SCR.FR PURPLE FASHION 12.png" style="display: inline-flexbox;"  onclick="destaque(this)"  >
+            <p>Pulseira PURPLE FASHION </p>
+            <p><strike>R$ 19,90</strike><p>
+            <p class="preco">R$ 14,00</p><br>
+            <hr>
+            </td>
+    <td class="item" valign="botton" id="Acessórios">
+        <img class="imagem" src="./img/CAJ.SCR.FR PURPLE FASHION 6.png" style="display:inline-flexbox;" onclick="destaque(this)" >
+        <br>
+        <p>Brinco floral folheado a prata</p>
+        <p><strike>R$ 40,00</strike></p><br>
+        <p  class="preco ">R$ 29,90</p><br>
+        <hr>
+     </td>
+     
+    <td class="item" valign="botton" id="Acessórios">
+         <img class="imagem" src="./img/collar 6.png"  style="display: inline-flexbox;" onclick="destaque(this)" >
+         <br>
+         <p>Kit de colar e brinco  ponto de luz folheado a prata</p>
+         <p><strike>R$ 220,00</strike></p><br>
+         <p class="preco ">R$ 150,00</p>
+         <hr>
+    </td>
+    <td class="item"valign="botton" id="Acessórios">
+        <img class="imagem" src="./img/collar 1.png" style="display: inline-flexbox;"  onclick="destaque(this)"  >
+        <p>Kit de Colar e brinco de ouro com pedraria 24k</p>
+        <p><strike>R$ 2.399,00</strike></p><br>
+        <p class="preco ">R$ 2.000,00</p>
+     <hr>
+   </td> 
+
+  
+    
+</tr>
+
+  <!--Fim da 2 linha de produos-->
+  <!--Começo da 3 linha de Produtos-->
+
+  <tr>
+    <td class="item" valign="botton" id="Cosméticos">
+        <img class="imagem" src="./img/1514464994850 (1).png" style="display: inline-flexbox;"  onclick="destaque(this)"  >
+        <p>Batom Lary Glamur</p>
+        <p><strike>R$ 9,90</strike></p><br>
+        <p class="preco " >R$ 3,00</p><br>
+        <hr>
+      </td>
+    <td class="item" valign="botton" id="Cosméticos">
+        <img class="imagem" src="./img/Make - po 2.png"  style="display: inline-flexbox;" onclick="destaque(this)" >
+        <br>
+        <p>Pó compacto Nu DF</p>
+        <p><strike>R$ 32,90</strike></font><br><br>
+        <p class="preco ">R$ 21,90</p><br>
+     <hr>
+    </td>
+   
+   <td class="item"valign="botton" id="Cosméticos">
+        <img class="imagem" src="./img/Make - esmalte 1.png"  style="display: inline-flexbox;" onclick="destaque(this)" >
+        <p>Esmaltes Skyturks </p>
+        <p><strike>R$ 9,90</strike><p>
+        <p class="preco">R$ 4,00</p><br>
+        <hr>
+  </td>
+  
+ <td class="item" valign="botton" id="Cosméticos" style="display: inline-flexbox;" onclick="destaque(this)"  >
+    <img class="imagem" src="./img/28.png">
+    <br>
+    <p>Kit de maquiagem Ruby Rose</p>
+    <p><strike>R$ 159,80</strike></p><br>
+    <p class="preco " >R$ 110,00</p><br>
+    <hr>
+</td>
+</tr>
+</table>
+</section>
+<!--fim da 3 linha de produtos-->
+
+
+    <!--Imagem do cupon-->
+     <img  width="100%" src="./img/download.gif">
+     <br><br><br> <br><br><br> <br>
+
+
+     <div class="tabela2">
+        <p3><b>GANHE R$10,00</b> DE <b>DESCONTO</b> NA PRIMEIRA COMPRA!</p3><br>
+        <p4>Válido para compras acima de R$100,00.</p4><br><br><br>
+        <label for="mail">E-mail:</label>
+        <input type="email" id="mail" name="mail" placeholder="Dígite seu E-mail para ganhar...">
+        <button class="btn" onmousemove="btn1()", onclick="btn2()", onmouseout="btn3()" >Enviar</button>
+
+    </div>
+    
+
+         <!--Formas de pagamento-->
+        <br><br><br><br>
+         <section class="pagamento">
+            <h4>Formas de Pagamento</h4>
+            <img id="pagamento" src="./img/icon-pagseguro-horiz.png" alt="Formas de Pagamentos">
+           <br><br><br>
+        </section>
+    
+       <footer id="rodape">      
+            <p>Copyright &copy; 2020- by Cristiane Pereira -Recode </p>
+                
+        </footer>
+    
+</body>
+</html>
